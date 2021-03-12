@@ -25,7 +25,7 @@ export default function App() {
     <div className="App">
       <div className={`flexContainer fc-${color}`}>
         <div className="img">
-          <img src={Logo} alt="KidsLoop Logo" />
+          <img src={Logo} alt="Logo" />
         </div>
 
         <div className={`msg-${color}`}>
