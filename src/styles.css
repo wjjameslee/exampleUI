@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.DarkMode {
+  transition: all 0.25s linear;
+  background-color: #181818;
+}
+.WhiteMode {
+  transition: all 0.25s linear;
+  background-color: white;
+}
+
+.App {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.flexContainer {
+  width: 23%;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fc-White {
+  transition: all 0.25s linear;
+  background-color: white;
+  box-shadow: 0px 0px 20px 5px #ddd;
+}
+
+.fc-Dark {
+  transition: all 0.25s linear;
+  background-color: #282828;
+  box-shadow: 0px 0px 20px 5px black;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.msg-Dark {
+  transition: all 0.25s linear;
+  color: white;
+  padding-bottom: 6px;
+}
+
+.msg-White {
+  transition: all 0.25s linear;
+}
+
+.img {
+  display: flex;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  height: 50px;
+  width: 60px;
+}
+
+section {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 100%;
+}
+
+.inputWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="email"],
+select,
+textarea {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d3d3d3;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #002a53;
+  margin: -1px;
+}
+
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d3d3d3;
+}
+
+input[type="password"]:focus {
+  outline: none;
+  border: 0;
+  box-shadow: 0 0 0 1px #002a53;
+  margin: -1px;
+}
+
+.in-White {
+  transition: all 0.25s linear;
+}
+
+.in-White:focus {
+  transition: all 0.25s linear;
+}
+
+.in-Dark {
+  transition: all 0.25s linear;
+  background-color: #121212;
+  color: white;
+  border: none !important;
+}
+
+.in-Dark:focus {
+  transition: all 0.25s linear;
+  box-shadow: 0 0 0 1px #b3b3b3 !important;
+}
+
+.h5-White {
+  transition: all 0.25s linear;
+  color: navy;
+}
+
+.h5-Dark {
+  transition: all 0.25s linear;
+  color: #d8d8d8;
+}
+
+.nextLayer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+#forgot {
+  flex: 10;
+  margin: auto;
+}
+
+#signbtn {
+  flex: 3;
+  font-family: "Open Sans", sans-serif;
+  padding: 7px 7px;
+  border: none;
+  background-color: #0276fd;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#signbtn:hover {
+  background: #d3d3d3;
+}
+
+#create {
+  padding-top: 12px;
+}
+
+.footer-White {
+  transition: all 0.25s linear;
+  width: 25%;
+  padding-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-Dark {
+  transition: all 0.25s linear;
+  width: 25%;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#menu {
+  flex: 0;
+  width: 0;
+  flex-grow: 1;
+}
+
+img {
+  padding-top: 10px;
+  padding-right: 3px;
+  flex: 1;
+  color: navy;
+}
+
+.se-White {
+  transition: all 0.25s linear;
+  background-color: white;
+  color: black;
+}
+
+.se-Dark {
+  transition: all 0.25s linear;
+  background-color: #181818;
+  border: none;
+
+  color: #d8d8d8;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  font-size: 10.5px;
+  font-weight: bold;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  text-decoration: underline;
+}
+
+select select option:checked {
+  border: none;
+  outline: none;
+}
+
+#links {
+  display: flex;
+  flex-shrink: wrap;
+  align-items: center;
+  font-size: 10.5px;
+  font-weight: bold;
+}
+
+#links span {
+  padding: 0 6px;
+}
+
+.link-White {
+  transition: all 0.25s linear;
+  color: black;
+}
+
+.link-Dark {
+  transition: all 0.25s linear;
+  color: #d8d8d8;
+}
